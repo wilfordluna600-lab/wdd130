@@ -1,3 +1,7 @@
+:root {
+    --common-margin: 1rem;
+    --common-height: auto;
+}
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -25,9 +29,9 @@ main {
 }
 aside {
     width: 20rem;
-    margin: 1rem;
+    margin: var(--common-margin);
     border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
+    padding: var(--common-margin);
     background-color: #eee;
     color: #333;
     text-align: center;
