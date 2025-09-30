@@ -1,0 +1,15 @@
+* {
+    
+}
+:root {
+    --primary-color: #174D4D;
+    --secondary-color: #FFE08C;
+    --accent1-color: #4DBDEB;
+    --accent2-color: #BE8B09;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
