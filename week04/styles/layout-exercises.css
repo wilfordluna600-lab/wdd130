@@ -52,11 +52,14 @@ div {
 
 .container3 {
     /* write declarations here */
+    display: grid;
+    grid-template: repeat(3, 1fr)/repeat(3, 1fr);
 
 }
 
 .columns-3 {
     /* write declaration here */
+    grid-column: 1/4;
 
 }
 
