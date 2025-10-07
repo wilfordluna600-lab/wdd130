@@ -115,7 +115,8 @@ footer nav {
 }
 a {
     text-decoration: none;
-    padding: 1px white;
+    padding: 25px white;
+    border: 5px white;
 }
 .hero article {
     background-color: #1e9632;
