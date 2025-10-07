@@ -113,3 +113,9 @@ footer p {
 footer nav {
     grid-column: 5/6;
 }
+a {
+    text-decoration: none;
+}
+.hero article {
+    background-color: #1e9632;
+}
