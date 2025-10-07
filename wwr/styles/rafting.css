@@ -87,3 +87,10 @@ article {
     margin: 5px;
 
 }
+.history-and-image img {
+    width: 150px;
+}
+.section-history {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
