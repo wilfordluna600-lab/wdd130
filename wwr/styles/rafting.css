@@ -35,7 +35,7 @@ header nav li {
 }
 header nav a {
     display: block;
-    color: navy;
+    color: var(--accent1-color);
     padding: 20px;
     font-size: 1.2rem;
 }
