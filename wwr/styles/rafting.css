@@ -94,3 +94,22 @@ article {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
 }
+.five-images{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+figure img {
+    width: 150px;
+}
+footer {
+    display: grid;
+    grid-template-columns: 20% 1% 58% 1% 20%;
+    grid-template-rows: 1fr;
+}
+footer p {
+    grid-column: 3/4;
+}
+footer nav {
+    grid-column: 5/6;
+}
