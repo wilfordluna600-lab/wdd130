@@ -141,3 +141,7 @@ main, footer {
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
+.map-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
