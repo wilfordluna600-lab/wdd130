@@ -162,3 +162,18 @@ main, footer {
 .image-two {
     margin-left: 105px;
 }
+.first-part-trips {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.first-part-trips p {
+    margin-top: 25px;
+}
+.trips-images {
+    display: flex;
+    align-content: space-around;
+}
+.trips-images img {
+    margin-left: 15px;
+    margin-right: 15px;
+}
