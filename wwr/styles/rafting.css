@@ -145,3 +145,20 @@ main, footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+.info-services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+.form-trip-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image-one {
+    margin-left: 105px;
+}
+.image-two {
+    margin-left: 105px;
+}
