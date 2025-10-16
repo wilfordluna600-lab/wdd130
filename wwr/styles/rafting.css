@@ -128,3 +128,16 @@ main, footer {
     background-color: var(--primary-color);
     
 }
+.contact-info {
+    text-align: center;
+    margin-top: 100;
+}
+.contact-info p {
+    padding: 0;
+    border: 0;
+    margin: 5px;
+}
+.first-info {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
