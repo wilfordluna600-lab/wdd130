@@ -97,9 +97,19 @@ const temples = [
 
 createTempleCard(temples);
 
-function createTempleCard(temples) {
+const oldLink = document.querySelector("#old");
+oldLink.addEventListener("click", () => {
+    createTempleCard(temples.filter(temple => temple.area < 1900));
+});
+
+const largeLink = document.querySelector("#large");
+largeLink.addEventListener("click", () => {
+    createTempleCard(temples.filter(temple => temple.area > 90000));
+});
+
+function createTempleCard(filteredTemples) {
   document.querySelector(".nine-images").innerHTML + "";
-  temples.forEach(temple => {
+  filteredTemples.forEach(temple => {
     let card = document.createElement("section");
     let name = document.createElement("h3");
     let location = document.createElement("p");
