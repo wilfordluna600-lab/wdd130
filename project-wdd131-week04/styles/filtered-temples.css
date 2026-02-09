@@ -1,0 +1,98 @@
+* {
+    text-align: center;
+}
+header {
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+footer {
+    background-color: gold;
+    text-align: center;
+}
+body {
+    max-width: 800px;
+    font-family: "Roboto", sans-serif;
+}
+nav {
+    list-style-type: none;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    border: 1px solid #fff;
+    color: navy;
+}
+h1 {
+    color: navy;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.nine-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+header span {
+    color: navy;
+    font-size: 2rem;
+}
+header main footer {
+    border: 2px black;
+}
+main h1 {
+    text-align: center;
+    font-size: 200px;
+}
+.navigation {
+    list-style: none;
+    margin: 0 auto;
+    max-width: 800px;
+}
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+}
+.menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #eee;
+    color: #000;
+}
+.menu::before {
+    content: "☰";
+}
+.navigation a:hover, .navigation a:active {
+    color: white;
+    background-color: black;
+}
+.show li {
+    display: block;
+}
+.menu.show::before {
+    content: "X";
+}
+section img {
+    height: auto;
+    overflow: clip;
+    width: 150px;
+}
+section {
+    width: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.7) ;
+}
