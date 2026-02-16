@@ -1,0 +1,60 @@
+* {
+    max-width: 37.5rem;
+}
+
+header, footer {
+    background-color: #255876;
+    color: white;
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"] {
+    display: block;
+}
+
+input[type="date"] {
+    display: block;
+}
+
+textarea {
+    display: block;
+}
+
+input[type="radio"] {
+	display: none;
+	position: relative;
+	caret-color: rgba(0, 0, 0, 0);
+}
+
+.stars {
+	color: gold;
+	width: 30px;
+	height: 30px;
+	font-size: 2rem;
+	margin-left: 5px;
+	display: flex;
+	align-items: center;
+	caret-color: rgba(0, 0, 0, 0); /* remove blinking cursor*/
+}
+
+.stars:hover {
+	color: #000;
+}
+
+.stars::before {
+	content: "\2606";
+}
+
+.stars input:checked ~ label::before {
+	content: "\2605";
+}
+
+input[type="text"], input[type="checkbox"], input[type="submit"] {
+    margin: 5px;
+    padding: 5px;
+    height: 20px;
+}
